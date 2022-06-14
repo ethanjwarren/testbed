@@ -1,19 +1,15 @@
-let user = {
-  name: "Ethan",
-  age: 22,
-  email: "ethan.warren10@gmail.com",
-  location: "Witney, Oxfordshire",
-  blogs: ["why mac and cheese rules", "10 things to make with marmite"],
-  login: function () {
-    console.log("User logged in");
-  },
-  logout: function () {
-    console.log("User logged out");
-  },
+const user = {
+  name: "Joe Bloggs",
+  age: 43,
+  email: "joebloggs@gmail.com",
+  location: "London, UK",
+  blogs: ["april's best moments", "the best day of my life"],
   logBlogs: function () {
-    console.log(this.blogs);
+    console.log("this user has written the following blogs:");
+    this.blogs.forEach((blog) => {
+      console.log(blog);
+    });
   },
 };
 
-user.logout();
-user.login();
+user.logBlogs();
