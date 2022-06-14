@@ -1,4 +1,4 @@
-const user = {
+let user = {
   name: "Joe Bloggs",
   age: 43,
   email: "joebloggs@gmail.com",
