@@ -1,30 +1,12 @@
-// const blogs = [
-//   { title: "april's best moments", likes: 10 },
-//   { title: "the best day of my life", likes: 20 },
-// ];
+// const para = document.querySelector("main h1");
 
-// console.log(blogs)
+// console.log(para);
 
-let user = {
-  name: "joe",
-  age: 43,
-  email: "joe@gmail.com",
-  location: "London, UK",
-  blogs: [
-    { title: "april's best moments", likes: 10 },
-    { title: "the best day of my life", likes: 20 },
-  ],
-  friends: [
-    { name: "joe", age: 43, email: "joe@email.com"},
-    { name: "bill", age: 32, email: "bill@email.com"},
-  ],
-  logBlogs() {
-		console.log("See the following blogs");
-		this.blogs.forEach(blog => {
-			console.log(blog.title, blog.likes);
-		})
-	}
-};
+const paras = document.querySelectorAll("p");
+const errors = document.querySelectorAll(".error");
 
-user.logBlogs();
-// user.logFriends();
+console.log(errors);
+
+// paras.forEach((para) => {
+//   console.log(para);
+// });

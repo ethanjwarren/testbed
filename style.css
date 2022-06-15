@@ -68,11 +68,14 @@ a:focus {
 .l-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 0 1.2rem;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 /* Nav */
